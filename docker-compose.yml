@@ -3,7 +3,7 @@ reverseproxy:
     image: nginx
     volumes:
         - ./nginx.conf:/etc/nginx/conf.d/default.conf
-        ports:
+    ports:
         - "80:80"
 
 networks:
